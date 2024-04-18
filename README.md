@@ -35,8 +35,8 @@
 **6) Add the following scripts in package.json :**
 
     ```
-      "start": "tsc && node dist/app.js",
-      "dev": "nodemon - exec 'ts-node' src/app.ts",
+      "start": "tsc && node dist/index.js",
+      "dev": "nodemon - exec 'ts-node' src/index.ts",
      ```
     
 **7) Build something crazy!**
